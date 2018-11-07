@@ -4,7 +4,6 @@ mixin navitem(name, )
       a.nav-link(href="index.html")
         | Home
         span.sr-only (current)
-
 nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top
     .container
       a.navbar-brand(href="#") Laurent Aymard
@@ -15,11 +14,11 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top
       #navbarResponsive.collapse.navbar-collapse
         ul.navbar-nav.ml-auto
           li.nav-item(class = "#{ current.source == 'index' ? 'active' : '' }")
-            a.nav-link(href="index.html")
+            a.nav-link(href="/index.html")
               | Home
               span.sr-only (current)
           |             
-          li.nav-item(class = "#{ current.source == 'projects' ? 'active' : '' }")
+          li.nav-item(class = "#{ current.path[0] == 'projects' ? 'active' : '' }")
             a.nav-link(href="projects.html") Projects
           |          
           li.nav-itemli.nav-item(class = "#{ current.source == 'contact' ? 'active' : '' }")
