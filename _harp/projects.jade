@@ -5,7 +5,7 @@ html(lang="en")
   body 
     include ./includes/navbar.jade 
     for project in public.projects._data.projects
-      != partial("projects/projects_item_list",{ title : project.title, detail : project.detail})
+      != partial("projects/projects_item_list",{ title : project.title, detail : project.detail, cover_image_url :project.cover_image_url })
     include ./includes/footer.jade
     script(src="vendor/jquery/jquery.min.js")
     script(src="vendor/bootstrap/js/bootstrap.bundle.min.js")
