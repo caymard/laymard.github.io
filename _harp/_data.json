@@ -4,5 +4,10 @@
   },
   "projects": {
     "layout": false
-}
+    },
+    "includes": {
+        "layout": false
+    }
+    
+     
 }
