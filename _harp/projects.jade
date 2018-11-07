@@ -4,7 +4,8 @@ html(lang="en")
     include ./header.jade
   body 
     include ./includes/navbar.jade 
-    != partial("projects/projects_item_list",{ title :"APT", detail : "Iworked on APT"})
+    for project in public.projects._data.projects
+      != partial("projects/projects_item_list",{ title : project.title, detail : project.detail})
     include ./includes/footer.jade
     script(src="vendor/jquery/jquery.min.js")
     script(src="vendor/bootstrap/js/bootstrap.bundle.min.js")
