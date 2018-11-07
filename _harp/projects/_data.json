@@ -3,7 +3,8 @@
   [
     {"title":"A Plague Tale : Innocence", 
       "detail":"I have participated in the development on that game at Asobo Studio as a Gameplay Programmer for a year.",
-      "cover_image_url" : "img/apt_image.jpg"
+      "cover_image_url" : "img/apt_image.jpg",
+      "project_url" : "projects/a-plague-tale.html"
     }
   ]
 }
