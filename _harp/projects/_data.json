@@ -5,6 +5,11 @@
       "detail":"I have participated in the development on that game at Asobo Studio as a Gameplay Programmer for a year.",
       "cover_image_url" : "img/apt_image.jpg",
       "project_url" : "projects/a-plague-tale.html"
+    },
+    {"title":"Photorealistic Scene", 
+      "detail":"As an intern, I helped the team at Canon Research France to make an urban scene photorealistic",
+      "cover_image_url" : "/img/canon_resarch_france.jpg",
+      "project_url" : ""
     }
   ]
 }

@@ -3,9 +3,13 @@ html(lang="en")
   head
     include ./header.jade
   body 
-    include ./includes/navbar.jade 
-    for project in public.projects._data.projects
-      != partial("projects/projects_item_list",{ title : project.title, detail : project.detail, cover_image_url :project.cover_image_url, project_url:project.project_url })
+    include ./includes/navbar.jade
+    .container
+      h1.my-4
+        | Projects I worked on
+      |       
+      for project in public.projects._data.projects
+        != partial("projects/projects_item_list",{ title : project.title, detail : project.detail, cover_image_url :project.cover_image_url, project_url:project.project_url })
     include ./includes/footer.jade
     script(src="vendor/jquery/jquery.min.js")
     script(src="vendor/bootstrap/js/bootstrap.bundle.min.js")
