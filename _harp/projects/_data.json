@@ -26,7 +26,7 @@
     {
       "title":"What To Watch", 
       "detail":"Solo project made for Mobile Develoment course at Newcastle University. This app shows you suggestion of movies based on your choice.",
-      "cover_image_url" : "http://placehold.it/700x300",
+      "cover_image_url" : "/img/what_to_watch_cover.jpg",
       "project_url" : ""
     },
     {
