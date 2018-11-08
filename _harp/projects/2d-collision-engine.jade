@@ -7,34 +7,29 @@ block content
       | 2D Collision Engine
     // Portfolio Item Row
     .row
-      .col-md-8
-        img.img-fluid(src="/img/urban_city.jpg", alt="")
+      .col-md-8.embed-responsive.embed-responsive-4by3
+        iframe.embed-responsive-item(src="https://www.youtube.com/embed/oYaw3Zo2vvU", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen="")
       |         
       .col-md-4
         h3 Project Description
         |           
         p(align="justify") 
-          | Within a research and development team, my work was to improve a simulation of an urban scene, involoving cars and pedestrians. I had to improve their behavior, and search or improve graphic aspect of the scene.
-          b  Important Note : 
-          | due to confidentialty, I am not able to show you my work on that project. The picture on the left is just for illustration. 
-        |           
-        h3.my-3 Contributions
+          | During the Game Programming course, I had to develop a 2D physic engine. Starting from an empty OpenGL window, I had to code a quick renderer and implement physics of displacement and collision response.
+        h3.my-3 Features
         |           
         ul
-          li Improving behavior of cars and pedestrian IA
+          li Calcul of collision sphere-sphere and plane-sphere
           |             
-          li Create tools in Unity Editor to configure and save different scenarios
+          li Mesh Rendering
           |             
-          li Creation of pipeline importation in order to add new model of cars
+          li Getting input from mouse to apply velocity to the white ball
         |           
         h3.my-3 Development details
         |           
         ul
-          li Code in C#
+          li Code in C++
           |   
-          li Use of Unity
+          li Use NCLGL, an easy wrapper of OpenGL
           |   
-          li Use of Unity Editor to create edition tools
-          |   
-          li Edit assets on Blender
+          li Use of Visual Studio
     
