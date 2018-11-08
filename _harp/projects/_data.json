@@ -10,6 +10,30 @@
       "detail":"As an intern, I helped the team at Canon Research France to make an urban scene photorealistic",
       "cover_image_url" : "/img/canon_resarch_france.jpg",
       "project_url" : ""
+    },
+    {
+      "title":"Enter The Castle", 
+      "detail":"Side solo project made with Unity3D. The goal is to implement many gameplay features.",
+      "cover_image_url" : "http://placehold.it/700x300",
+      "project_url" : ""
+    },
+    {
+      "title":"2D Collision Engine", 
+      "detail":"Solo project made for Game Programming course at Newcastle University.",
+      "cover_image_url" : "http://placehold.it/700x300",
+      "project_url" : ""
+    },
+    {
+      "title":"What To Watch", 
+      "detail":"Solo project made for Mobile Develoment course at Newcastle University. This app shows you suggestion of movies based on your choice.",
+      "cover_image_url" : "http://placehold.it/700x300",
+      "project_url" : ""
+    },
+    {
+      "title":"Small World", 
+      "detail":"Group project to learn Object Oriented Programming at INSA Rennes. This is a porting of a board game.",
+      "cover_image_url" : "http://placehold.it/700x300",
+      "project_url" : ""
     }
   ]
 }
