@@ -1,0 +1,39 @@
+extends project-item.jade
+
+block content
+  .container
+    // Portfolio Item Heading
+    h1.my-4
+      | Enter The Castle
+    // Portfolio Item Row
+    .row
+      .col-md-8.embed-responsive.embed-responsive-4by3
+        iframe.embed-responsive-item(src="https://www.youtube.com/embed/yZIWvdRWB0M", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen="")
+      |         
+      .col-md-4
+        h3 Project Description
+        |           
+        p(align="justify") 
+          | This solo project is currently developped by myself. The goal is to do an immersive sim, like Dishonored or Deus Ex, one of my favourite games ! For now there is only a test map with few features. But the best is yet to come !
+          | The Game is hosted on Itch.io with a web player. 
+          a(href="https://laurenoutang.itch.io/enter-the-castle") Try it !
+        h3.my-3 Main features
+        |           
+        ul
+          li Improving behavior of cars and pedestrian IA
+          |             
+          li Create tools in Unity Editor to configure and save different scenarios
+          |             
+          li Creation of pipeline importation in order to add new model of cars
+        |           
+        h3.my-3 Next main tasks
+        |           
+        ul
+          li Code in C#
+          |   
+          li Use of Unity
+          |   
+          li Use of Unity Editor to create edition tools
+          |   
+          li Edit assets on Blender
+    
