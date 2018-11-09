@@ -33,7 +33,7 @@
       "title":"Small World", 
       "detail":"Group project to learn Object Oriented Programming at INSA Rennes. This is a porting of a board game.",
       "cover_image_url" : "/img/smallworld-cover.jpg",
-      "project_url" : ""
+      "project_url" : "projects/smallworld.html"
     }
   ]
 }
