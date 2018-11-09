@@ -2,11 +2,11 @@ doctype html
 html(lang="en")
   head
     include ./header.jade
-  body 
+  body.static-background 
     .wrapper
       include ./includes/navbar.jade
       .container
-        h1.my-4
+        h1.py-4
           | Projects I worked on
         |       
         for project in public.projects._data.projects
