@@ -2,30 +2,30 @@
   "projects":
   [
     {"title":"A Plague Tale : Innocence", 
-      "detail":"I have participated in the development on that game at Asobo Studio as a Gameplay Programmer for a year.",
+      "detail":"I have participated in the development on this adventure game at Asobo Studio as a Gameplay Programmer for a year.",
       "cover_image_url" : "img/apt_image.jpg",
       "project_url" : "projects/a-plague-tale.html"
     },
     {"title":"Photorealistic Scene", 
-      "detail":"As an intern, I helped the team at Canon Research France to make an urban scene photorealistic",
+      "detail":"As an intern, I helped the team at Canon Research France to make an urban scene as realistic as possible.",
       "cover_image_url" : "/img/canon_resarch_france.jpg",
       "project_url" : "projects/canon-unity3d-scene.html"
     },
     {
       "title":"Enter The Castle", 
-      "detail":"Side solo project made with Unity3D. The goal is to implement many gameplay features.",
+      "detail":"Side solo project made with Unity3D. The goal is to implement many gameplay features to create an FPS game.",
       "cover_image_url" : "/img/enter_the_castle_cover-01.jpg",
       "project_url" : "projects/enter-the-castle.html"
     },
     {
       "title":"2D Collision Engine", 
-      "detail":"Solo project made for Game Programming course at Newcastle University.",
+      "detail":"Solo project made for Game Programming course at Newcastle University. It is simulating 2D collisions on a pool game.",
       "cover_image_url" : "/img/collision_2d_engine.jpg",
       "project_url" : "projects/2d-collision-engine.html"
     },
     {
       "title":"What To Watch", 
-      "detail":"Solo project made for Mobile Development course at Newcastle University. This app shows you suggestion of movies based on your choice.",
+      "detail":"Solo project made for Mobile Development course at Newcastle University. This Android app shows you suggestion of movies based on your choices.",
       "cover_image_url" : "/img/what_to_watch_cover.jpg",
       "project_url" : "projects/what-to-watch.html"
     },
