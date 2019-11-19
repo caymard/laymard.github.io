@@ -1,0 +1,41 @@
+extends project-item.jade
+
+block content
+  .container
+    // Portfolio Item Heading
+    h1.my-4
+      | Dead By Daylight Mobile
+    // Portfolio Item Row
+    .row
+      .col-md-8.embed-responsive.embed-responsive-4by3
+        iframe.embed-responsive-item(src="https://www.youtube.com/embed/-Y06hEBeY0I", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen="")
+      |         
+      .col-md-4
+        h3 Project description
+        |           
+        p(align="justify") 
+          | We are currently making the adaptation of Dead By Daylight into mobile platforms. We have to recreate the same gameplay experience with all constraints mobiles impose us.
+        |           
+        h3.my-3 Contributions
+        |           
+        ul
+          li Making the HUD with the touch interface
+          |             
+          li Adapted friends and party systems from PC and console versions to mobile platforms. Integrating corresponding user interface in collaboration with UI artists
+          |             
+          li Create a process to use texture atlases in order to improve UI memory usage
+          |    
+          li Involved in the code design for sharing code between mobile and PC/Console
+          |           
+          li Helped on the tutorial level scripting
+          |             
+          li Profiled CPU and network performance
+        |           
+        h3.my-3 Development details
+        |           
+        ul
+          li Code in C++
+          |             
+          li Usage of Unreal Engine, TexturePacker, FramePro, Android Studio
+          |             
+          li Perforce for version control

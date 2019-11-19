@@ -1,6 +1,11 @@
 {
   "projects":
   [
+    {"title":"Dead By Daylight Mobile", 
+      "detail":"I am currently working on the development of the mobile version of the famous asymetrical multiplayer game.",
+      "cover_image_url" : "img/project_DbD_Mobile-01.jpg",
+      "project_url" : "projects/DbD-Mobile.html"
+    },
     {"title":"A Plague Tale : Innocence", 
       "detail":"I have participated in the development on this adventure game at Asobo Studio as a Gameplay Programmer for a year.",
       "cover_image_url" : "img/apt_image.jpg",
