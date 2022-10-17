@@ -1,8 +1,13 @@
 {
   "projects":
   [
+    {"title":"Meet your Maker", 
+      "detail":"I am currently working on this brandly new IP from Behaviour Interactive",
+      "cover_image_url" : "img/meet_your_maker.jpg",
+      "project_url" : "projects/DbD-Mobile.html"
+    },
     {"title":"Dead By Daylight Mobile", 
-      "detail":"I am currently working on the development of the mobile version of the famous asymetrical multiplayer game.",
+      "detail":"I have worked on the development of the mobile version of the famous asymetrical multiplayer game.",
       "cover_image_url" : "img/project_DbD_Mobile-01.jpg",
       "project_url" : "projects/DbD-Mobile.html"
     },
