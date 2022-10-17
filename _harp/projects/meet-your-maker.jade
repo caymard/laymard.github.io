@@ -1,0 +1,37 @@
+extends project-item.jade
+
+block content
+  .container
+    // Portfolio Item Heading
+    h1.my-4
+      | Meet your Maker
+    // Portfolio Item Row
+    .row
+      .col-md-8.embed-responsive.embed-responsive-4by3
+        iframe.embed-responsive-item(src="https://www.youtube.com/watch?v=byics-k831o", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen="")
+      |         
+      .col-md-4
+        h3 Project description
+        |           
+        p(align="justify") 
+          | We are creating a new IP based on building and combat.
+        |           
+        h3.my-3 Contributions
+        |           
+        ul
+          li Network programming
+          |             
+          li Implementing weapons and consumable
+          |             
+          li Improving 3C's
+          |    
+          li Adding an interaction system
+        |           
+        h3.my-3 Development details
+        |           
+        ul
+          li Code in C++
+          |             
+          li Usage of Unreal Engine
+          |             
+          li Perforce for version control
