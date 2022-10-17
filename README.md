@@ -3,7 +3,6 @@ This is a readme for future Laurent so that he won't forget how his website deve
 
 
 ## Installation
-
 Download [harp.js](http://harpjs.com/)
 
 ## Development
@@ -15,9 +14,13 @@ Add a new jade page in _harp/projects
 
 ## Test
 > harp compile _harp
+
 > harp server _harp
 
+Then go to [localhost:9000](http://localhost:9000/)
+
 ## Deployment
-> harp compile _harp
+> harp compile _harp    
+
 Then copy content of  the _harp/www folder to the root project
 Not perfect but that works
